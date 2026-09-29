@@ -1,0 +1,8 @@
+{
+  "name": "local-inference-chip",
+  "label": "Local Inference",
+  "description": "Backend for the Local Inference status-bar chip.",
+  "version": "0.1.0",
+  "tab": { "path": "/local-inference", "hidden": true },
+  "api": "plugin_api.py"
+}

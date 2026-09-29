@@ -1,0 +1,6 @@
+name: local-inference-chip
+version: 0.1.0
+description: "Status-bar chip for self-hosted inference servers (llama.cpp, vLLM, SGLang): live decode tok/s, prefill, TTFT, speculative-draft acceptance, KV/context fill, queue and GPU, with per-model baselines and drift alerts. Zero model tokens. Disclosure — reads the Prometheus /metrics (plus llama.cpp /slots and /v1/models) of providers whose base URL is on localhost or a private network, sending that provider's configured key_env bearer token only to that same endpoint; runs nvidia-smi only when the server is on this machine. No other network egress."
+author: souf
+license: MIT
+provides_hooks: []
